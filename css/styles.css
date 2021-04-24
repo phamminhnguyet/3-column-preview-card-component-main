@@ -1,0 +1,116 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    width: 100%; 
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.content {
+    width: 930px;
+    min-height: 500px;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: table;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.card {
+    width: 310px;
+    display: table-cell;
+    padding: 45px 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    width: 145px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    border: solid hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .content {
+        width: 325px;
+        min-height: auto;
+        margin: 80px auto 0 auto;
+        display: block;
+    }
+    
+    .card {
+        width: 100%;
+        min-height: 440px;
+        display: block;
+        float: left;
+    } 
+}
